@@ -25,7 +25,7 @@ appEventData.push({
     "category": "<category>",
     "subcategory": "<subcategory?>",
     "subcategory2": "<subcategory2?>",
-    "region": "<region?>",
+    "regions": "<regions?>",
     "text": "<text>",
   }
 });
@@ -40,5 +40,5 @@ Items with a ? may not be generated depending on what attributes are present and
 |category|string|Category of the link|chat, ecommerce, learn more, share, subscribe, visit|
 |subcategory|string|Subcategory of the link|buy now, email, print, social|
 |subcategory2|string|Subcategory tier 2 of the link. Often used for service names, such as with a share > social.|facebook, twitter|
-|region|string|Pipe-delimited list of all regions in ancestry of clicked item. Automatically generated.|
+|regions|string|Pipe-delimited list of all regions in ancestry of clicked item. Automatically generated.|
 |text|string|Text contents of the item clicked on, or an alternative text label to use instead|Chat with us, Visit our Twitter Page|
